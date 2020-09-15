@@ -1,0 +1,23 @@
+h1 {color: white;
+    background-color:rgb(98, 170, 98);
+    height: 100px}
+h2 {font-size:xx-large;
+    color:rgb(247, 131, 85);
+    font-size: xx-large} 
+h3 {color:black;
+    font-size: xx-large}
+p {font-size:x-large;
+    font-style: italic}
+ol {color:rgb(247, 131, 85);
+    font-size:xx-large;
+    font-weight:bold}
+ul {color:black;
+    font-size:x-large;
+    font-weight:normal}
+a {color:rgb(247, 131, 85);
+    font-size: xx-large}
+span a {color: black;
+    font-size:x-large;
+    font-style: italic}
+img {height: 3in;
+    width: 6in}
