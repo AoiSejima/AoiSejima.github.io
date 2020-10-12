@@ -1,0 +1,56 @@
+body {
+    background-color: rgba(0, 52, 182, 0.322);
+}
+
+h1 {
+    text-align: center;
+    font-family:'Cormorant Garamond';
+    font-weight: normal;
+    font-style: italic;
+    margin: 3vh;
+}
+
+h3 {
+    text-align: center;
+    font-family:'Cormorant Garamond';
+    font-weight: normal;
+    font-style: normal;
+    margin: 3vh;
+}
+
+h2{
+    text-align: center;
+    font-family:'Cormorant Garamond';
+    font-weight: bold;
+    font-style: normal;
+    margin: 0;
+    z-index: 2;
+}
+
+p{
+    text-align: center;
+    font-family:'Cormorant Garamond';
+    font-weight: normal;
+    font-style: normal;
+    font-size: 30px;
+    height: 5vh; 
+    margin: 0;
+    z-index: 3;
+}
+
+img {
+    max-width: 100%;
+    display: block;
+    margin: auto;
+    width: 50%;
+    opacity: 0.3;
+    /* scroll-snap-align: center; */
+    z-index: 1;
+  }
+
+.bottomcenter {
+    position: relative;
+    bottom: 10vh;
+    left: 1.5vh;
+}
+    
