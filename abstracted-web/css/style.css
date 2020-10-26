@@ -76,7 +76,7 @@ img {
     overflow: hidden;
 }
 
-#slide {
+.slide {
     position: absolute;
     left: -100px;
     right: 100px;
@@ -91,6 +91,9 @@ img {
     left: 0;
 }
 
+
+
+  
 article {
     color: rgb(34, 34, 34);
     background: rgb(165, 191, 238);
