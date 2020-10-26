@@ -38,6 +38,10 @@ main {
     margin: 5%;
 }
 
+ul {
+    list-style-position: unset;
+}
+
 .gallery li {
     background: white;
     margin: 5vh;
@@ -73,24 +77,3 @@ header {
         flex-basis: 100%;
     }
 }
-
-div.gallery {
-    margin: 5px;
-    border: 1px solid #ccc;
-    float: left;
-    width: 180px;
-  }
-  
-  div.gallery:hover {
-    border: 1px solid #777;
-  }
-  
-  div.gallery img {
-    width: 100%;
-    height: auto;
-  }
-  
-  div.desc {
-    padding: 15px;
-    text-align: center;
-  }
