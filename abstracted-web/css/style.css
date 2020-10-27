@@ -11,6 +11,7 @@ nav {
     box-sizing: border-box;
     display: flex;
     justify-content: space-between;
+    flex-wrap: wrap;
 }
 
 a {
@@ -53,6 +54,11 @@ aside {
     display: block;
     flex: 30%;
     padding: 5%;   
+}
+
+.hover-opacity:hover {
+    opacity: 0.5;
+    transition: .5s all ease-out;
 }
 
 img {
