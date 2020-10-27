@@ -89,15 +89,15 @@ header {
 @media (max-width: 768px) {
     .gallery li {
         flex-basis: 10%;
-        width: 40vw;
-        height: 15vh;
-        padding: 2vh 1vw 5vh 1vw;
+        width: 30vw;
+        height: 10vh;
+        padding: 2vh 1vw 4vh 1vw;
     }
 
     img {
         flex-basis: 10%;
-        width: 40vw;
-        height: 15vh;
+        width: 30vw;
+        height: 10vh;
     }
 
     a, header {
