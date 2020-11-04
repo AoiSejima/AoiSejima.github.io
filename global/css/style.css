@@ -1,0 +1,6 @@
+#dog {
+    transform: rotate(0deg);
+    display: block;
+    width: 40vw;
+    height: 50vh;
+}

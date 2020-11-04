@@ -1,0 +1,46 @@
+body {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: rgb(202, 160, 122);
+}
+
+#openedbox img {
+    position: absolute;
+    margin-left: 85vw;
+    width: 15vw;
+    height: 20vh;
+    opacity: 0.8;
+}
+
+#track-clicks span {
+    font-size: 75pt;
+    position: absolute;
+    margin-top: 5vh;
+    margin-left: 89vw;
+}
+
+header {
+    font-size: 75pt;
+    position: absolute;
+    margin-top: 5vh;
+    margin-left: 92vw;
+    
+}
+
+#button img {
+    position: absolute;
+    margin-right: 100vw;
+}
+
+#image-container {
+    width: 150px;
+    position: absolute;
+}
+
+#image-container img {
+    width: 100%;
+    display: block;
+    position: absolute;
+}
