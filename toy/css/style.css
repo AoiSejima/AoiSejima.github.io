@@ -5,7 +5,19 @@ body {
     overflow: hidden;
 }
 
+#sand img {
+    position: absolute;
+    width: 100vw;
+    height: 100vh;
+}
+
 #reefs img {
+    position: absolute;
+    width: 100vw;
+    height: 100vh;
+}
+
+#clip-path img {
     position: absolute;
     width: 100vw;
     height: 100vh;
@@ -49,11 +61,4 @@ header {
     width: 100%;
     display: block;
     position: absolute;
-}
-
-#sand img {
-    position: absolute;
-    width: 100vw;
-    height: 100vh;
-    clip-path: circle(10% at 10% 10%);
 }
