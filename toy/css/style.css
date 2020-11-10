@@ -3,7 +3,13 @@ body {
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: rgb(202, 160, 122);
+}
+
+#reefs img {
+    position: absolute;
+    width: 100vw;
+    height: 100vh;
+    clip-path: circle(10% at 10% 10%);
 }
 
 #openedbox img {
@@ -34,13 +40,20 @@ header {
     margin-right: 100vw;
 }
 
-#image-container {
+#fish {
     width: 150px;
     position: absolute;
 }
 
-#image-container img {
+#fish img {
     width: 100%;
     display: block;
     position: absolute;
+}
+
+#sand img {
+    position: absolute;
+    width: 100vw;
+    height: 100vh;
+    clip-path: circle(10% at 10% 10%);
 }

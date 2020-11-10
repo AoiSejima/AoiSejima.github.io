@@ -1,5 +1,4 @@
 window.addEventListener("load", function() {
-    var image = document.getElementById('image-container');
     var fish = document.getElementById('fish');
 
     var button = document.getElementById('button');
@@ -8,14 +7,14 @@ window.addEventListener("load", function() {
     var currentNumberOfClicks = 0;
             
     //follow function
-    //take the image container and position it where the cursor is
+    //take fish container and position it where the cursor is
     function follow(e) {
         
         var x = e.x;
         var y = e.y;
 
-        image.style.left = x + 'px';
-        image.style.top = y + 'px';
+        fish.style.left = x + 'px';
+        fish.style.top = y + 'px';
     }
     
     //count function
@@ -35,5 +34,4 @@ window.addEventListener("load", function() {
 
     document.body.addEventListener('mousemove', follow);
     button.addEventListener('click', count);
-
 });
