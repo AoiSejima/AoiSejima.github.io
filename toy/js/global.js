@@ -30,6 +30,12 @@ window.addEventListener("load", function() {
 
         button.style.opacity = "0";
         button.style.filter  = 'alpha(opacity=0)';
+
+        if (button.style.display === "none") {
+            button.style.display = "block";
+          } else {
+            button.style.display = "none";
+        }
     }
 
     document.body.addEventListener('mousemove', follow);

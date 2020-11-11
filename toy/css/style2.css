@@ -1,0 +1,12 @@
+img {
+    position: absolute;
+    width: 100vw;
+    height: 100vh;
+}
+
+h1 {
+    position: relative;
+    font-size: 30pt;
+    align-items: center;
+    color: navy;
+}
