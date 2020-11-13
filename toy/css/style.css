@@ -17,13 +17,6 @@ body {
     height: 100vh;
 }
 
-#clip-path img {
-    position: absolute;
-    width: 100vw;
-    height: 100vh;
-    clip-path: circle(10% at 10% 10%);
-}
-
 #openedbox img {
     position: absolute;
     margin-left: 85vw;
@@ -47,11 +40,6 @@ header {
     
 }
 
-#button img {
-    position: absolute;
-    margin-right: 100vw;
-}
-
 #fish {
     width: 150px;
     position: absolute;
@@ -62,3 +50,16 @@ header {
     display: block;
     position: absolute;
 }
+
+#button {
+    clip-path: ellipse(150px at 20% 20%);
+    display: block;
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+}
+
+#button img {
+    position: absolute;
+}
+

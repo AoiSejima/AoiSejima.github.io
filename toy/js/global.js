@@ -15,6 +15,9 @@ window.addEventListener("load", function() {
 
         fish.style.left = x + 'px';
         fish.style.top = y + 'px';
+
+        clipPath.style.left = x + 'px';
+        clipPath.style.top = y + 'px';
     }
     
     //count function
