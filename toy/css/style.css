@@ -52,11 +52,19 @@ header {
     position: absolute;
     width: 100vw;
     height: 100vh;
-    background-color: brown;
+    background-color: rgb(184, 130, 69);
     z-index: 1;
 }
 
-#treasure img {
+#necklace img {
+    position: absolute;
+    width: 100vw;
+    height: 100vh;
+    left: 100px;
+    top: 300px;
+}
+
+#key img {
     position: absolute;
     left: 100px;
     top: 300px;

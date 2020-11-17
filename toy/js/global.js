@@ -1,14 +1,13 @@
 window.addEventListener("load", function() {
     var fish = document.getElementById('fish');
+    var clicksContainer = document.getElementById('clicks');
+    var currentNumberOfClicks = 0;
 
     var treasure = document.getElementById('treasure');
     var necklace = document.getElementById('necklace');
     var key = document.getElementById('key');
-    var clicksContainer = document.getElementById('clicks');
 
-    var currentNumberOfClicks = 0;
-
-    function placeNecklace() {
+    function placeTreasure() {
         console.log(randomX, randomY)
 
         var randomX = Math.floor((Math.random() * (window.innerWidth - 50)));
@@ -25,6 +24,7 @@ window.addEventListener("load", function() {
         fish.style.left = x + 'px';
         fish.style.top = y + 'px';
 
+        // circle(120px at 120px 120px);
         treasure.style.clipPath = "circle(120px at " + x + "px" + " " + y + "px"; 
     }
     
@@ -46,13 +46,19 @@ window.addEventListener("load", function() {
         if(currentNumberOfClicks === 2) {
             window.location = 'closedbox.html';
         }
+
+        if (e.target.style.display === "none") {
+            e.target.style.display = "block";
+          } else {
+            e.target.style.display = "none";
+        }
     }
 
     document.body.addEventListener('mousemove', follow);
     necklace.addEventListener('click', count);
     key.addEventListener('click', count);
 
-    // placeTreasure();
-    placeNecklace();
+    // placeNecklace();
     // placeKey();
+    placeTreasure();
 });
