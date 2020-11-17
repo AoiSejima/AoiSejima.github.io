@@ -5,12 +5,6 @@ body {
     overflow: hidden;
 }
 
-#sand img {
-    position: absolute;
-    width: 100vw;
-    height: 100vh;
-}
-
 #reefs img {
     position: absolute;
     width: 100vw;
@@ -37,12 +31,13 @@ header {
     position: absolute;
     margin-top: 5vh;
     margin-left: 92vw;
-    
 }
 
 #fish {
     width: 150px;
     position: absolute;
+    z-index: 2;
+    pointer-events: none;
 }
 
 #fish img {
@@ -52,14 +47,18 @@ header {
 }
 
 #button {
-    clip-path: ellipse(150px at 20% 20%);
+    clip-path: circle(120px at 120px 120px);
     display: block;
-    position: relative;
+    position: absolute;
     width: 100vw;
     height: 100vh;
+    background-color: brown;
+    z-index: 1;
 }
 
 #button img {
     position: absolute;
+    left: 100px;
+    top: 300px;
 }
 
