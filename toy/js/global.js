@@ -1,18 +1,18 @@
 window.addEventListener("load", function() {
     var fish = document.getElementById('fish');
 
-    var button = document.getElementById('button');
+    var treasure = document.getElementById('treasure');
     var necklace = document.getElementById('necklace');
     var key = document.getElementById('key');
     var clicksContainer = document.getElementById('clicks');
 
     var currentNumberOfClicks = 0;
 
-    var randomX = Math.floor((Math.random() * (window.innerWidth - 50)));
-    var randomY = Math.floor((Math.random() * (window.innerHeight - 50)));
-
-    function placeTreasure() {
+    function placeNecklace() {
         console.log(randomX, randomY)
+
+        var randomX = Math.floor((Math.random() * (window.innerWidth - 50)));
+        var randomY = Math.floor((Math.random() * (window.innerHeight - 50)));
     }
 
     //follow function
@@ -25,14 +25,12 @@ window.addEventListener("load", function() {
         fish.style.left = x + 'px';
         fish.style.top = y + 'px';
 
-        // circle(100px at 100px 100px);
-        button.style.clipPath = "circle(120px at " + x + "px" + " " + y + "px"; 
+        treasure.style.clipPath = "circle(120px at " + x + "px" + " " + y + "px"; 
     }
     
     //count function
     //count the number of times the button is clicked
     function count(e) {
-
         console.log(e);
         
         console.log('before adding new click',  currentNumberOfClicks);
@@ -48,17 +46,13 @@ window.addEventListener("load", function() {
         if(currentNumberOfClicks === 2) {
             window.location = 'closedbox.html';
         }
-        // if (treasure.style.display === "none") {
-        //     treasure.style.display = "block";
-        //   } else {
-        //     treasure.style.display = "none";
-        // }
     }
 
     document.body.addEventListener('mousemove', follow);
     necklace.addEventListener('click', count);
     key.addEventListener('click', count);
 
+    // placeTreasure();
     placeNecklace();
-    placeKey();
+    // placeKey();
 });
