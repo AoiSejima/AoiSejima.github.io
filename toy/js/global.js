@@ -7,11 +7,27 @@ window.addEventListener("load", function() {
     var necklace = document.getElementById('necklace');
     var key = document.getElementById('key');
 
-    function placeTreasure() {
-        console.log(randomX, randomY)
+
+    function placeNecklace() {
 
         var randomX = Math.floor((Math.random() * (window.innerWidth - 50)));
         var randomY = Math.floor((Math.random() * (window.innerHeight - 50)));
+
+        necklace.style.left = randomX + 'px';
+        necklace.style.top = randomY + 'px';
+
+        console.log(randomX, randomY)
+    }
+
+    function placeKey() {
+
+        var randomX = Math.floor((Math.random() * (window.innerWidth - 50)));
+        var randomY = Math.floor((Math.random() * (window.innerHeight - 50)));
+
+        key.style.left = randomX + 'px';
+        key.style.top = randomY + 'px';
+
+        console.log(randomX, randomY)
     }
 
     //follow function
@@ -58,7 +74,6 @@ window.addEventListener("load", function() {
     necklace.addEventListener('click', count);
     key.addEventListener('click', count);
 
-    // placeNecklace();
-    // placeKey();
-    placeTreasure();
+    placeNecklace();
+    placeKey();
 });

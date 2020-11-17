@@ -47,26 +47,23 @@ header {
 }
 
 #treasure {
+    background-color: rgb(184, 130, 69);
     clip-path: circle(120px at 120px 120px);
     display: block;
     position: absolute;
     width: 100vw;
     height: 100vh;
-    background-color: rgb(184, 130, 69);
     z-index: 1;
 }
 
-#necklace img {
-    position: absolute;
-    width: 100vw;
-    height: 100vh;
-    left: 100px;
-    top: 300px;
+#necklace {
+    position: relative;
+    width: 13vw;
+    height: 30vh;
 }
 
-#key img {
-    position: absolute;
-    left: 100px;
-    top: 300px;
+#key {
+    position: relative;
+    width: 10vw;
+    height: 25vh;
 }
-
