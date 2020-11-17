@@ -10,8 +10,8 @@ window.addEventListener("load", function() {
 
     function placeNecklace() {
 
-        var randomX = Math.floor((Math.random() * (window.innerWidth - 50)));
-        var randomY = Math.floor((Math.random() * (window.innerHeight - 50)));
+        var randomX = Math.floor((Math.random() * (window.innerWidth - 208.2)));
+        var randomY = Math.floor((Math.random() * (window.innerHeight - 312.3)));
 
         necklace.style.left = randomX + 'px';
         necklace.style.top = randomY + 'px';
@@ -21,8 +21,8 @@ window.addEventListener("load", function() {
 
     function placeKey() {
 
-        var randomX = Math.floor((Math.random() * (window.innerWidth - 50)));
-        var randomY = Math.floor((Math.random() * (window.innerHeight - 50)));
+        var randomX = Math.floor((Math.random() * (window.innerWidth - 208.2)));
+        var randomY = Math.floor((Math.random() * (window.innerHeight - 260.25)));
 
         key.style.left = randomX + 'px';
         key.style.top = randomY + 'px';
