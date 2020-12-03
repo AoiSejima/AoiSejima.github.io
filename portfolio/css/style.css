@@ -1,0 +1,148 @@
+body {
+    background: rgb(255, 243, 225);
+    margin: 0;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Verdana, sans-serif;
+}
+
+nav {
+    width: 100%;
+    position: relative;
+    padding: 5vh 2vw 2vh 65vw;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+a {
+    color: rgb(34, 34, 34);
+    font-size: 20pt;
+}
+
+main {
+    position: relative;
+    width: 100%;  
+    display: flex;
+    justify-content: flex-end;
+    flex-wrap: wrap;
+    box-sizing: border-box;
+}
+
+section {
+    color: rgb(34, 34, 34);
+    background: rgb(202, 221, 255);
+    position: relative;
+    width: 50%;
+    box-sizing: border-box;
+    display: block;
+    padding: 5%;
+    flex: 30%;
+}
+
+h1 {
+    font-size: 90pt;
+}
+
+h2 {
+    font-size: 40pt;
+}
+
+aside {
+    background: rgb(224, 213, 193);
+    position: relative;
+    box-sizing: border-box;
+    display: block;
+    flex: 30%;
+    padding: 5%;   
+}
+
+.hover-opacity:hover {
+    opacity: 0.5;
+    transition: .5s all ease-out;
+}
+
+img {
+    width: 100%;
+    height: 100%;
+    position: relative;
+    box-sizing: border-box;
+    display: block;
+}
+  
+article {
+    color: rgb(34, 34, 34);
+    background: rgb(165, 191, 238);
+    width: 100%;
+    position: relative;
+    display: block;
+    box-sizing: border-box; 
+    padding: 5%;
+}
+
+h3 {
+    font-size: 40pt;
+}
+
+p {
+    font-size: 20pt;
+}
+
+/* Tablet */
+@media (max-width: 1024px) {
+    a {
+        font-size: 10pt;
+    }
+
+    h1 {
+        font-size: 60pt;
+    }
+
+    h2 {
+        font-size: 30pt;
+    }
+
+    img {
+        flex-basis: 10%;
+        width: 60vw;
+        height: 40vh;
+        margin-left: 15%;
+    }
+
+    h3 {
+        font-size: 30pt;
+    }
+
+    p {
+        font-size: 15pt;
+    }
+}
+
+/* Mobile */
+@media (max-width: 768px) {
+    a {
+        font-size: 7pt;
+    }
+
+    h1 {
+        font-size: 40pt;
+    }
+
+    h2 {
+        font-size: 20pt;
+    }
+
+    img {
+        flex-basis: 10%;
+        width: 75vw;
+        height: 30vh;
+        margin-left: 8%;
+    }
+
+    h3 {
+        font-size: 20pt;
+    }
+
+    p {
+        font-size: 10pt;
+    }
+}

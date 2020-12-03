@@ -1,0 +1,156 @@
+body {
+    background: white;
+    margin: 0;
+    width: 100vw;
+    height: 100vh;
+}
+
+#blue-bar {
+    position: absolute;
+    background: rgb(39, 46, 70);
+    width: 3.5vw;
+    height: 100vh;
+    display: block;
+    z-index: 5;
+}
+
+#whitecolumn {
+    position: fixed;
+    width: 24.5vw;
+    height: 100vh;
+    border: solid 1px rgb(218, 221, 224);
+    background-color: white;
+    overflow: scroll;
+    z-index: 3;
+}
+
+#whitepadding {
+    position: absolute;
+    background:white;
+    width: 21vw;
+    height: 7vh;
+    margin-left: 3.5vw;
+    z-index: 4;
+}
+
+form {
+    color: rgb(182, 182, 182);
+    background: rgb(246, 245, 245);
+    position: absolute;
+    margin-top: 4vh;
+    margin-left: 5vw;
+    z-index: 5;
+}
+
+#selfprofile {
+    position: absolute;
+    width: 21vw;
+    height: 10vh;
+    background: rgb(243, 243, 243);
+    list-style: none;
+    margin-top: 7vh;
+    margin-left: 3.5vw;
+    z-index: 4;
+}
+
+#circle {
+    position: absolute;
+    border-radius: 50%;
+    width: 48px;
+    height: 48px;
+    background:rgb(194, 194, 194);
+    margin-top: 8vh;
+    margin-left: 4.8vw;
+    z-index: 5;
+}
+
+#favorites {
+    position: absolute;
+    width: 21vw;
+    height: 4vh;
+    background: white;
+    margin-top: 13.5vh;
+    margin-left: 3.5vw;
+    z-index: 4;
+}
+
+#groups {
+    position: absolute;
+    width: 21vw;
+    height: 4vh;
+    background: white;
+    margin-top: 41.5vh;
+    margin-left: 3.5vw;
+    z-index: 4;
+}
+
+#friends {
+    position: absolute;
+    width: 21vw;
+    height: 4vh;
+    background: white;
+    margin-top: 57.5vh;
+    margin-left: 3.5vw;
+    z-index: 4;
+}
+
+p {
+    position: sticky;
+    font-family: sans-serif;
+    font-size: 10pt;
+    font-weight: lighter;
+    color: rgb(122, 122, 122);
+    padding-left: 1.3vw;
+    padding-top: 0.5vh;
+}
+
+.circle {
+    position: relative;
+    border-radius: 50%;
+    width: 48px;
+    height: 48px;
+    background:rgb(194, 194, 194);
+    list-style: none;
+    margin-bottom: 1.5vh;
+    margin-left: 1.3vw;
+    z-index: 2;
+
+    overflow: auto;
+}
+
+#converseationbox {
+    margin-left: 24.5vw;
+    background: white;
+    width: 75.5vw;
+    height: 100vh;
+}
+
+h1 {
+    text-align: center;
+    padding-top: 55vh;
+    font-family: sans-serif;
+    font-size: 10pt;
+    font-weight: lighter;
+    color: rgb(122, 122, 122);
+}
+
+/* Tablet */
+@media (max-width: 1024px) {
+    #converseationbox {
+        position: fixed;
+        margin-left: 24.5vw;
+        background: white;
+        width: 75.5vw;
+        height: 100vh;
+        z-index: 5;
+        outline-style: solid;
+        outline-color: rgb(218, 221, 224);
+        outline-width: 1px;
+    }
+
+}
+
+/* Mobile */
+@media (max-width: 768px) {
+    
+}
