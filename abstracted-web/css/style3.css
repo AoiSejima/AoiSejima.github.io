@@ -139,6 +139,17 @@ h1 {
     color: rgb(122, 122, 122);
 }
 
+a {
+    position: absolute;
+    font-family: sans-serif;
+    font-size: 20pt;
+    font-weight: bold;
+    color: rgb(122, 122, 122);
+    margin-top: 45vh;
+    margin-left: 30.5vw;
+    z-index: 6;
+}
+
 /* Tablet */
 @media (max-width: 1024px) {
 
@@ -225,6 +236,17 @@ h1 {
         margin-top: 62vh;
         margin-left: 3.5vw;
         z-index: 4;
+    }
+
+    a {
+        position: absolute;
+        font-family: sans-serif;
+        font-size: 20pt;
+        font-weight: bold;
+        color: rgb(122, 122, 122);
+        margin-top: 45vh;
+        margin-left: 26vw;
+        z-index: 6;
     }
 }
 
