@@ -9,13 +9,6 @@ ul, li {
     padding: 0;
 }
 
-button {
-    border: 0;
-    padding: 0;
-    background: transparent;
-    text-decoration: underline;
-}
-
 #carousel-list {
     position: relative;
     margin: auto;
@@ -24,13 +17,13 @@ button {
     /* transition: opacity 0.5s white; */
 }
 
-#carousel-list img {
-    width: 100%;
-}
-
 #carousel-list li {
     position: absolute;
     width: 80%;
+}
+
+#carousel-list img {
+    width: 100%;
 }
 
 #carousel-controls {
@@ -39,6 +32,13 @@ button {
     width: 50vw;
     display: flex;
     justify-content: space-between;
+}
+
+button {
+    border: 0;
+    padding: 0;
+    background: transparent;
+    text-decoration: underline;
 }
 
 #carousel-list li:nth-child(1) {

@@ -1,0 +1,136 @@
+body {
+    background: rgb(253, 255, 138);
+    margin: 4vh;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Verdana, sans-serif;
+}
+
+#home-button img {
+    position: absolute;
+    width: 3.7vw;
+    height: 6.5vh;
+}
+
+h1 {
+    padding-left: 5vw;
+    font-size: 50pt;
+    display: inline;
+    color: rgb(49, 211, 240);
+}
+
+h2 {
+    padding-left: 1.5vw;
+    font-size: 20pt;
+    display: inline;
+    font-weight: normal;
+    color: rgb(49, 211, 240);
+}
+
+nav {
+    position: relative;
+    width: 100%;
+    padding: 0vh 0vw 2vh 80vw;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+a {
+    color: rgb(255, 76, 52);
+    font-size: 13pt;
+    text-decoration: none;
+}
+
+h3 {
+    margin: center;
+    font: 25pt;
+}
+
+p {
+    position: relative;
+    font: 20pt;
+}
+
+main {
+    position: relative;
+    margin-top: 2vh;
+    /* margin: 13vh auto auto 1.2vw; */
+    display: flex;
+    box-sizing: border-box;
+}
+
+.gallery {
+    position: relative;
+    box-sizing: border-box;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    overflow: hidden;
+    list-style: none;
+}
+
+.gallery li {
+    position: relative;
+    background: white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin: 3vh 2vw 5vh 2vw;
+}
+
+img {
+    display: block;
+    width: 20vw;
+    height: 35vh;
+}
+
+.hover-opacity:hover {
+    opacity: 0.5;
+    transition: .5s all ease-out;
+}
+
+header {
+    font-family: 'century gothic';
+    font-size: 20pt;
+    text-align: center;
+    position: relative;
+    padding-top: 2vh;
+}
+
+/* Tablet */
+@media (max-width: 1024px) {
+    .gallery li {
+        flex-basis: 10%;
+        width: 50vw;
+        height: 30vh;
+        padding: 2vh 1vw 5vh 1vw;
+    }
+
+    img {
+        flex-basis: 10%;
+        width: 50vw;
+        height: 30vh;
+    }
+
+    a, header {
+        font-size: 10pt;
+    }
+}
+
+/* Mobile */
+@media (max-width: 768px) {
+    .gallery li {
+        flex-basis: 10%;
+        width: 30vw;
+        height: 10vh;
+        padding: 2vh 1vw 4vh 1vw;
+    }
+
+    img {
+        flex-basis: 10%;
+        width: 30vw;
+        height: 10vh;
+    }
+
+    a, header {
+        font-size: 7pt;
+    }
+}

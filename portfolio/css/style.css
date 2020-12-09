@@ -1,13 +1,34 @@
 body {
-    background: rgb(255, 243, 225);
-    margin: 0;
+    background: rgb(253, 255, 138);
+    margin: 4vh;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Verdana, sans-serif;
 }
 
+#home-button img {
+    position: absolute;
+    width: 3.7vw;
+    height: 6.5vh;
+}
+
+h1 {
+    padding-left: 5vw;
+    font-size: 50pt;
+    display: inline;
+    color: rgb(49, 211, 240);
+}
+
+h2 {
+    padding-left: 1.5vw;
+    font-size: 20pt;
+    display: inline;
+    font-weight: normal;
+    color: rgb(49, 211, 240);
+}
+
 nav {
-    width: 100%;
     position: relative;
-    padding: 5vh 2vw 2vh 65vw;
+    width: 100%;
+    padding: 0vh 0vw 2vh 80vw;
     box-sizing: border-box;
     display: flex;
     justify-content: space-between;
@@ -15,76 +36,56 @@ nav {
 }
 
 a {
-    color: rgb(34, 34, 34);
-    font-size: 20pt;
+    color: rgb(255, 76, 52);
+    font-size: 13pt;
+    text-decoration: none;
 }
 
 main {
     position: relative;
     width: 100%;  
-    display: flex;
-    justify-content: flex-end;
-    flex-wrap: wrap;
-    box-sizing: border-box;
 }
 
-section {
-    color: rgb(34, 34, 34);
-    background: rgb(202, 221, 255);
+#slideshow {
+    position: absolute;
+    width: 100%;
+    margin: auto;
+    /* transition: opacity 0.5s white; */
+    /* opacity: 0.5;
+    transition: .5s all ease-out; */
+}
+
+#slideshow li {
+    position: absolute;
+    margin: auto;
+    list-style: none;
+}
+
+#slideshow img {
     position: relative;
     width: 50%;
-    box-sizing: border-box;
-    display: block;
-    padding: 5%;
-    flex: 30%;
+    margin-top: 5vh;
+    margin-left: 22vw;
 }
 
-h1 {
-    font-size: 90pt;
-}
-
-h2 {
-    font-size: 40pt;
-}
-
-aside {
-    background: rgb(224, 213, 193);
-    position: relative;
-    box-sizing: border-box;
-    display: block;
-    flex: 30%;
-    padding: 5%;   
-}
-
-.hover-opacity:hover {
-    opacity: 0.5;
-    transition: .5s all ease-out;
-}
-
-img {
+#slide-controls {
+    position: absolute;
+    margin-top: 40vh;
     width: 100%;
-    height: 100%;
-    position: relative;
-    box-sizing: border-box;
-    display: block;
-}
-  
-article {
-    color: rgb(34, 34, 34);
-    background: rgb(165, 191, 238);
-    width: 100%;
-    position: relative;
-    display: block;
-    box-sizing: border-box; 
-    padding: 5%;
+    display: flex;
+    justify-content: space-between;
 }
 
-h3 {
-    font-size: 40pt;
-}
-
-p {
+button {
+    border: 0;
+    padding: 0;
+    background: transparent;
     font-size: 20pt;
+    color: rgb(255, 76, 52);
+}
+
+#slideshow li:nth-child(1) {
+    opacity:1;
 }
 
 /* Tablet */
