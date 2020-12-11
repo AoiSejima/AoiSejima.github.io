@@ -14,7 +14,7 @@ h1 {
     padding-left: 5vw;
     font-size: 50pt;
     display: inline;
-    color: rgb(49, 211, 240);
+    color: rgb(72, 236, 209);
 }
 
 h2 {
@@ -22,17 +22,13 @@ h2 {
     font-size: 20pt;
     display: inline;
     font-weight: normal;
-    color: rgb(49, 211, 240);
+    color: rgb(72, 236, 209);
 }
 
-nav {
-    position: relative;
-    width: 100%;
-    padding: 0vh 0vw 2vh 80vw;
-    box-sizing: border-box;
-    display: flex;
-    justify-content: space-between;
-    flex-wrap: wrap;
+h5 {
+    color: gray;
+    font-size: 13pt;
+    line-height: 0;
 }
 
 a {
@@ -41,9 +37,40 @@ a {
     text-decoration: none;
 }
 
+nav {
+    position: relative;
+    padding-left: 73vw;
+}
+
+nav a {
+    position: relative;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-left: 3vw;
+}
+
+ul,li {
+    display: inline-block;
+}
+
+#drop {
+    position: relative;
+    background:  rgba(72, 236, 209, 0.363);
+    padding-bottom: 2vh;
+    margin-top: 1vh;
+    margin-bottom: 1vh;
+    display: none;
+}
+
+#hover:hover #drop {
+    display: block;
+}
+
 h3 {
     margin-top: 5vh;
-    margin-left: 40vw;
+    text-align: center;
     font: 25pt;
 }
 
