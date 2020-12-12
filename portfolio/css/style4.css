@@ -1,7 +1,7 @@
 body {
     background: rgb(253, 255, 138);
     margin: 4vh;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Verdana, sans-serif;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
 #home-button img {
@@ -28,7 +28,7 @@ h2 {
 h5 {
     color: gray;
     font-size: 13pt;
-    line-height: 0;
+    margin-bottom: 0.8vh;
 }
 
 a {
@@ -71,11 +71,12 @@ ul,li {
 h3 {
     margin-top: 5vh;
     text-align: center;
-    font: 25pt;
+    font-size: 20pt;
+    color: rgb(136, 136, 136);
 }
 
 main {
-    margin: 13vh auto auto 1.2vw;
+    margin: 5vh 2vw auto auto;
     position: relative;
     display: flex;
     box-sizing: border-box;
@@ -95,13 +96,14 @@ main {
     position: relative;
     background: white;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-    margin: 3vh 2vw 5vh 2vw;
+    margin: 10vh 1vw 5vh 1.2vw;
 }
 
 img {
     display: block;
-    width: 18vw;
+    width: 20.5vw;
     height: 27vh;
+    object-fit: contain;
 }
 
 .hover-opacity:hover {
@@ -110,11 +112,13 @@ img {
 }
 
 header {
+    position: relative;
     font-family: 'century gothic';
     font-size: 20pt;
     text-align: center;
-    position: relative;
     padding-top: 2vh;
+    padding-bottom: 2vh;
+    color: gray;
 }
 
 /* Tablet */
