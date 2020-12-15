@@ -35,11 +35,13 @@ a {
     color: rgb(255, 76, 52);
     font-size: 13pt;
     text-decoration: none;
+    margin-bottom: 1vh;
 }
 
 nav {
     position: relative;
     padding-left: 73vw;
+    margin-top: -4.5vh;
 }
 
 nav a {
@@ -57,7 +59,7 @@ ul,li {
 
 #drop {
     position: relative;
-    background:  rgba(72, 236, 209, 0.363);
+    background:  rgb(72, 236, 209, 0.363);
     padding-bottom: 2vh;
     margin-top: 1vh;
     margin-bottom: 1vh;
@@ -69,14 +71,13 @@ ul,li {
 }
 
 h3 {
-    margin-top: 5vh;
+    position: relative;
     text-align: center;
-    font-size: 20pt;
-    color: rgb(136, 136, 136);
+    margin-top: 8vh;
+    color: gray;
 }
 
 main {
-    margin: 5vh 2vw auto auto;
     position: relative;
     display: flex;
     box-sizing: border-box;
@@ -96,13 +97,15 @@ main {
     position: relative;
     background: white;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-    margin: 10vh 1vw 5vh 1.2vw;
+    margin: 8vh 1vw 5vh 1.2vw;
+    height: 40vh;
 }
 
 img {
     display: block;
     width: 20.5vw;
     height: 27vh;
+    margin-top: 2vh;
     object-fit: contain;
 }
 
@@ -116,47 +119,102 @@ header {
     font-family: 'century gothic';
     font-size: 20pt;
     text-align: center;
-    padding-top: 2vh;
-    padding-bottom: 2vh;
+    padding-top: 4vh;
     color: gray;
 }
 
 /* Tablet */
 @media (max-width: 1024px) {
+    h1 {
+        font-size: 40pt;
+        margin-left: 1vw;
+    }
+
+    h2 {
+        font-size: 20pt;
+    }
+
+    #home-button img {
+        width: 6.5vw;
+        height: 6vh;
+        margin-left: -2vw;
+    }
+    
+    a {
+        font-size: 12pt;
+    }
+
+    #drop a {
+        margin-left: -2vw;
+        margin-right: 1vw;
+    }
+
+    h5 {
+        font-size: 10pt;
+        margin-left: -2vw;
+    }
+
     .gallery li {
-        flex-basis: 10%;
         width: 50vw;
-        height: 30vh;
+        height: 45vh;
         padding: 2vh 1vw 5vh 1vw;
     }
 
     img {
-        flex-basis: 10%;
         width: 50vw;
-        height: 30vh;
+        height: 40vh;
     }
 
-    a, header {
-        font-size: 10pt;
+    header {
+        font-size: 20pt;
+        margin-top: -3vh;
     }
 }
 
 /* Mobile */
 @media (max-width: 768px) {
+    h1 {
+        font-size: 27pt;
+        margin-left: 2vw;
+    }
+
+    h2 {
+        font-size: 13pt;
+    }
+
+    #home-button img {
+        width: 7vw;
+        height: 4.5vh;
+        margin-left: -2vw;
+    }
+    
+    a {
+        font-size: 8pt;
+    }
+
+    #drop a {
+        margin-left: -5vw;
+    }
+
+    h5 {
+        font-size: 5pt;
+        margin-left: -5vw;
+    }
+
     .gallery li {
-        flex-basis: 10%;
         width: 30vw;
-        height: 10vh;
+        height: 18vh;
         padding: 2vh 1vw 4vh 1vw;
+        margin-right: 6vw;
     }
 
     img {
-        flex-basis: 10%;
         width: 30vw;
-        height: 10vh;
+        height: 14vh;
     }
 
-    a, header {
-        font-size: 7pt;
+    header {
+        font-size: 15pt;
+        margin-top: -2vh;
     }
 }
